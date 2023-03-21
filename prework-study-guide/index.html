@@ -14,6 +14,7 @@
         src="./assets/bowtie-cat.png" 
         alt="Profile image of cat wearing a bow tie." 
       />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class = "card" id = "html-section">
@@ -37,6 +38,20 @@
         <ul>
           <li>git status: checks out what branch you are currently on (sanity check)</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>When pushing work:</li>
+          <li><ul>
+            <li>*First, get your work onto your branch</li>
+            <li>$git add .</li>
+            <li>$git commit -m "thoughtful message"</li>
+            <li>*If you are not pushing your work, stop here</li>
+            <li>*Second, make sure your local main branch is up to date and push your working branch</li>
+            <li>$git pull origin main</li>
+            <li>$git push origin {branch name}</li>
+            <li>*Finally, go to github and merge the pull request, then clean up your local branch</li>
+            <li>$git checkout main</li>
+            <li>$git pull origin main</li>
+          </ul></li>
+          
         </ul>
       </section>
 
@@ -51,5 +66,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
